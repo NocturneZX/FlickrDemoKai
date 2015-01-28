@@ -7,13 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D4921BD1A71B946009CD131 /* BGManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4921BC1A71B946009CD131 /* BGManager.m */; };
+		4D4921C21A71C58D009CD131 /* GundamEmotion.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4D4921C01A71C58D009CD131 /* GundamEmotion.caf */; };
+		4D4921C31A71C58D009CD131 /* FlyGundam.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4D4921C11A71C58D009CD131 /* FlyGundam.caf */; };
+		4D4921C51A72E04F009CD131 /* GundamEarth.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4D4921C41A72E04F009CD131 /* GundamEarth.caf */; };
+		4D4921C71A72E69E009CD131 /* gnGundam2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4921C61A72E69E009CD131 /* gnGundam2.png */; };
+		4D9E379A1A6F0519000DEE0E /* kamilie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E37991A6F0519000DEE0E /* kamilie.jpg */; };
+		4D9E379C1A6F0AC2000DEE0E /* circle-mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E379B1A6F0AC2000DEE0E /* circle-mask.png */; };
+		4D9E37A21A6F1465000DEE0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9E37A11A6F1465000DEE0E /* Foundation.framework */; };
+		4D9E37A91A705DE8000DEE0E /* GNParticleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E37A81A705DE8000DEE0E /* GNParticleView.m */; };
+		4DB25F041A68657100263C53 /* GNParticleSystem.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25F021A68657100263C53 /* GNParticleSystem.scnp */; };
+		4DB25F051A68657100263C53 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25F031A68657100263C53 /* star.png */; };
+		4DB25F0B1A6AF28F00263C53 /* CustomFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB25F0A1A6AF28F00263C53 /* CustomFlowLayout.m */; };
+		4DB25F2D1A6AF55F00263C53 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB25F231A6AF55F00263C53 /* CoreFoundation.framework */; };
+		4DB25F2E1A6AF55F00263C53 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB25F241A6AF55F00263C53 /* CoreGraphics.framework */; };
+		4DB25F2F1A6AF55F00263C53 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB25F251A6AF55F00263C53 /* CoreImage.framework */; };
+		4DB25F301A6AF55F00263C53 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB25F261A6AF55F00263C53 /* CoreMedia.framework */; };
+		4DB25F311A6AF55F00263C53 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB25F271A6AF55F00263C53 /* GLKit.framework */; };
+		4DB25F321A6AF55F00263C53 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB25F281A6AF55F00263C53 /* ImageIO.framework */; };
+		4DB25F331A6AF55F00263C53 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB25F291A6AF55F00263C53 /* MediaPlayer.framework */; };
+		4DB25F341A6AF55F00263C53 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB25F2A1A6AF55F00263C53 /* QuartzCore.framework */; };
+		4DB25F351A6AF55F00263C53 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB25F2B1A6AF55F00263C53 /* SpriteKit.framework */; };
+		4DB25F361A6AF55F00263C53 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB25F2C1A6AF55F00263C53 /* UIKit.framework */; };
+		4DB25F381A6AF58200263C53 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB25F371A6AF58200263C53 /* OpenGLES.framework */; };
+		4DB25F8C1A6B2C2400263C53 /* 01 - RGiZCHB.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25F711A6B2C2400263C53 /* 01 - RGiZCHB.jpg */; };
+		4DB25F8D1A6B2C2400263C53 /* 02 - DlpsRAk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25F721A6B2C2400263C53 /* 02 - DlpsRAk.jpg */; };
+		4DB25F8E1A6B2C2400263C53 /* 03 - ZHfe0EA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25F731A6B2C2400263C53 /* 03 - ZHfe0EA.jpg */; };
+		4DB25F8F1A6B2C2400263C53 /* 04 - 15Ygni9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25F741A6B2C2400263C53 /* 04 - 15Ygni9.jpg */; };
+		4DB25F901A6B2C2400263C53 /* 05 - X84VOu0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25F751A6B2C2400263C53 /* 05 - X84VOu0.jpg */; };
+		4DB25F911A6B2C2400263C53 /* 06 - HHI1oPc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25F761A6B2C2400263C53 /* 06 - HHI1oPc.jpg */; };
+		4DB25F921A6B2C2400263C53 /* 07 - yrpdwiJ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25F771A6B2C2400263C53 /* 07 - yrpdwiJ.jpg */; };
+		4DB25F931A6B2C2400263C53 /* 08 - 40lUYZw.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25F781A6B2C2400263C53 /* 08 - 40lUYZw.jpg */; };
+		4DB25F941A6B2C2400263C53 /* 09 - tBjOOO9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25F791A6B2C2400263C53 /* 09 - tBjOOO9.jpg */; };
+		4DB25F961A6B2C2400263C53 /* 11 - fp0YhmP.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25F7B1A6B2C2400263C53 /* 11 - fp0YhmP.jpg */; };
+		4DB25F991A6B2C2400263C53 /* 14 - DfVL6Ky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25F7E1A6B2C2400263C53 /* 14 - DfVL6Ky.jpg */; };
+		4DB25F9A1A6B2C2400263C53 /* 15 - ofDo6TT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25F7F1A6B2C2400263C53 /* 15 - ofDo6TT.jpg */; };
+		4DB25F9B1A6B2C2400263C53 /* 16 - eY4qHii.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25F801A6B2C2400263C53 /* 16 - eY4qHii.jpg */; };
+		4DB25F9C1A6B2C2400263C53 /* 17 - vo3uG5o.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25F811A6B2C2400263C53 /* 17 - vo3uG5o.jpg */; };
+		4DB25F9D1A6B2C2400263C53 /* 18 - TuuMyEp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25F821A6B2C2400263C53 /* 18 - TuuMyEp.jpg */; };
+		4DB25F9E1A6B2C2400263C53 /* 19 - Rkoh2mU.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25F831A6B2C2400263C53 /* 19 - Rkoh2mU.jpg */; };
+		4DB25F9F1A6B2C2400263C53 /* 20 - Ktrr2Ze.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25F841A6B2C2400263C53 /* 20 - Ktrr2Ze.jpg */; };
+		4DB25FA01A6B2C2400263C53 /* 21 - BImGb28.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25F851A6B2C2400263C53 /* 21 - BImGb28.jpg */; };
+		4DB25FA11A6B2C2400263C53 /* 22 - 6i3xJUb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25F861A6B2C2400263C53 /* 22 - 6i3xJUb.jpg */; };
+		4DB25FA21A6B2C2400263C53 /* 23 - UKegpFO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25F871A6B2C2400263C53 /* 23 - UKegpFO.jpg */; };
+		4DB25FA31A6B2C2400263C53 /* 24 - mx50jSs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25F881A6B2C2400263C53 /* 24 - mx50jSs.jpg */; };
+		4DB25FA41A6B2C2400263C53 /* 25 - Edi3hMw.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25F891A6B2C2400263C53 /* 25 - Edi3hMw.jpg */; };
+		4DB25FA51A6B2C2400263C53 /* 26 - I6E8AxD.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25F8A1A6B2C2400263C53 /* 26 - I6E8AxD.jpg */; };
+		4DB25FA61A6B2C2400263C53 /* 27 - wJAhNnZ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25F8B1A6B2C2400263C53 /* 27 - wJAhNnZ.jpg */; };
+		4DB25FA81A6DAEAE00263C53 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB25FA71A6DAEAE00263C53 /* SceneKit.framework */; };
 		4DED24421A6847A3004C3845 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DED24411A6847A3004C3845 /* main.m */; };
 		4DED24451A6847A3004C3845 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DED24441A6847A3004C3845 /* AppDelegate.m */; };
-		4DED24481A6847A3004C3845 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DED24471A6847A3004C3845 /* ViewController.m */; };
 		4DED244B1A6847A3004C3845 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DED24491A6847A3004C3845 /* Main.storyboard */; };
 		4DED244D1A6847A3004C3845 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DED244C1A6847A3004C3845 /* Images.xcassets */; };
 		4DED24501A6847A3004C3845 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DED244E1A6847A3004C3845 /* LaunchScreen.xib */; };
 		4DED245C1A6847A3004C3845 /* FlickrDemoKaiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DED245B1A6847A3004C3845 /* FlickrDemoKaiTests.m */; };
+		4DED24671A684B64004C3845 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DED24661A684B64004C3845 /* CollectionViewCell.m */; };
+		4DED246A1A684C96004C3845 /* FlickrDataDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DED24691A684C96004C3845 /* FlickrDataDownloader.m */; };
+		4DED246D1A684CBC004C3845 /* FlickrPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DED246C1A684CBC004C3845 /* FlickrPhoto.m */; };
+		4DED24721A6857DA004C3845 /* FlickrCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DED24711A6857DA004C3845 /* FlickrCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +78,76 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D4921BB1A71B946009CD131 /* BGManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGManager.h; sourceTree = "<group>"; };
+		4D4921BC1A71B946009CD131 /* BGManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGManager.m; sourceTree = "<group>"; };
+		4D4921C01A71C58D009CD131 /* GundamEmotion.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GundamEmotion.caf; sourceTree = "<group>"; };
+		4D4921C11A71C58D009CD131 /* FlyGundam.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FlyGundam.caf; sourceTree = "<group>"; };
+		4D4921C41A72E04F009CD131 /* GundamEarth.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GundamEarth.caf; sourceTree = "<group>"; };
+		4D4921C61A72E69E009CD131 /* gnGundam2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gnGundam2.png; sourceTree = "<group>"; };
+		4D9E37991A6F0519000DEE0E /* kamilie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kamilie.jpg; sourceTree = "<group>"; };
+		4D9E379B1A6F0AC2000DEE0E /* circle-mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle-mask.png"; sourceTree = "<group>"; };
+		4D9E37A11A6F1465000DEE0E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4D9E37A71A705DE8000DEE0E /* GNParticleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNParticleView.h; sourceTree = "<group>"; };
+		4D9E37A81A705DE8000DEE0E /* GNParticleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNParticleView.m; sourceTree = "<group>"; };
+		4DB25F021A68657100263C53 /* GNParticleSystem.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = GNParticleSystem.scnp; sourceTree = "<group>"; };
+		4DB25F031A68657100263C53 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		4DB25F091A6AF28F00263C53 /* CustomFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFlowLayout.h; sourceTree = "<group>"; };
+		4DB25F0A1A6AF28F00263C53 /* CustomFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFlowLayout.m; sourceTree = "<group>"; };
+		4DB25F231A6AF55F00263C53 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		4DB25F241A6AF55F00263C53 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4DB25F251A6AF55F00263C53 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		4DB25F261A6AF55F00263C53 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		4DB25F271A6AF55F00263C53 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		4DB25F281A6AF55F00263C53 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		4DB25F291A6AF55F00263C53 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		4DB25F2A1A6AF55F00263C53 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4DB25F2B1A6AF55F00263C53 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		4DB25F2C1A6AF55F00263C53 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4DB25F371A6AF58200263C53 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		4DB25F711A6B2C2400263C53 /* 01 - RGiZCHB.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "01 - RGiZCHB.jpg"; sourceTree = "<group>"; };
+		4DB25F721A6B2C2400263C53 /* 02 - DlpsRAk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "02 - DlpsRAk.jpg"; sourceTree = "<group>"; };
+		4DB25F731A6B2C2400263C53 /* 03 - ZHfe0EA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "03 - ZHfe0EA.jpg"; sourceTree = "<group>"; };
+		4DB25F741A6B2C2400263C53 /* 04 - 15Ygni9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "04 - 15Ygni9.jpg"; sourceTree = "<group>"; };
+		4DB25F751A6B2C2400263C53 /* 05 - X84VOu0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "05 - X84VOu0.jpg"; sourceTree = "<group>"; };
+		4DB25F761A6B2C2400263C53 /* 06 - HHI1oPc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "06 - HHI1oPc.jpg"; sourceTree = "<group>"; };
+		4DB25F771A6B2C2400263C53 /* 07 - yrpdwiJ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "07 - yrpdwiJ.jpg"; sourceTree = "<group>"; };
+		4DB25F781A6B2C2400263C53 /* 08 - 40lUYZw.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "08 - 40lUYZw.jpg"; sourceTree = "<group>"; };
+		4DB25F791A6B2C2400263C53 /* 09 - tBjOOO9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "09 - tBjOOO9.jpg"; sourceTree = "<group>"; };
+		4DB25F7B1A6B2C2400263C53 /* 11 - fp0YhmP.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "11 - fp0YhmP.jpg"; sourceTree = "<group>"; };
+		4DB25F7E1A6B2C2400263C53 /* 14 - DfVL6Ky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "14 - DfVL6Ky.jpg"; sourceTree = "<group>"; };
+		4DB25F7F1A6B2C2400263C53 /* 15 - ofDo6TT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "15 - ofDo6TT.jpg"; sourceTree = "<group>"; };
+		4DB25F801A6B2C2400263C53 /* 16 - eY4qHii.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "16 - eY4qHii.jpg"; sourceTree = "<group>"; };
+		4DB25F811A6B2C2400263C53 /* 17 - vo3uG5o.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "17 - vo3uG5o.jpg"; sourceTree = "<group>"; };
+		4DB25F821A6B2C2400263C53 /* 18 - TuuMyEp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "18 - TuuMyEp.jpg"; sourceTree = "<group>"; };
+		4DB25F831A6B2C2400263C53 /* 19 - Rkoh2mU.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "19 - Rkoh2mU.jpg"; sourceTree = "<group>"; };
+		4DB25F841A6B2C2400263C53 /* 20 - Ktrr2Ze.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "20 - Ktrr2Ze.jpg"; sourceTree = "<group>"; };
+		4DB25F851A6B2C2400263C53 /* 21 - BImGb28.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "21 - BImGb28.jpg"; sourceTree = "<group>"; };
+		4DB25F861A6B2C2400263C53 /* 22 - 6i3xJUb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "22 - 6i3xJUb.jpg"; sourceTree = "<group>"; };
+		4DB25F871A6B2C2400263C53 /* 23 - UKegpFO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "23 - UKegpFO.jpg"; sourceTree = "<group>"; };
+		4DB25F881A6B2C2400263C53 /* 24 - mx50jSs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "24 - mx50jSs.jpg"; sourceTree = "<group>"; };
+		4DB25F891A6B2C2400263C53 /* 25 - Edi3hMw.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "25 - Edi3hMw.jpg"; sourceTree = "<group>"; };
+		4DB25F8A1A6B2C2400263C53 /* 26 - I6E8AxD.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "26 - I6E8AxD.jpg"; sourceTree = "<group>"; };
+		4DB25F8B1A6B2C2400263C53 /* 27 - wJAhNnZ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "27 - wJAhNnZ.jpg"; sourceTree = "<group>"; };
+		4DB25FA71A6DAEAE00263C53 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
 		4DED243C1A6847A3004C3845 /* FlickrDemoKai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickrDemoKai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DED24401A6847A3004C3845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DED24411A6847A3004C3845 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4DED24431A6847A3004C3845 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4DED24441A6847A3004C3845 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4DED24461A6847A3004C3845 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4DED24471A6847A3004C3845 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4DED244A1A6847A3004C3845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DED244C1A6847A3004C3845 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4DED244F1A6847A3004C3845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4DED24551A6847A3004C3845 /* FlickrDemoKaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlickrDemoKaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DED245A1A6847A3004C3845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DED245B1A6847A3004C3845 /* FlickrDemoKaiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlickrDemoKaiTests.m; sourceTree = "<group>"; };
+		4DED24651A684B64004C3845 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		4DED24661A684B64004C3845 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		4DED24681A684C96004C3845 /* FlickrDataDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.h; path = FlickrDataDownloader.h; sourceTree = "<group>"; };
+		4DED24691A684C96004C3845 /* FlickrDataDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrDataDownloader.m; sourceTree = "<group>"; };
+		4DED246B1A684CBC004C3845 /* FlickrPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhoto.h; sourceTree = "<group>"; };
+		4DED246C1A684CBC004C3845 /* FlickrPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhoto.m; sourceTree = "<group>"; };
+		4DED24701A6857DA004C3845 /* FlickrCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrCollectionViewController.h; sourceTree = "<group>"; };
+		4DED24711A6857DA004C3845 /* FlickrCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +155,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D9E37A21A6F1465000DEE0E /* Foundation.framework in Frameworks */,
+				4DB25FA81A6DAEAE00263C53 /* SceneKit.framework in Frameworks */,
+				4DB25F381A6AF58200263C53 /* OpenGLES.framework in Frameworks */,
+				4DB25F2D1A6AF55F00263C53 /* CoreFoundation.framework in Frameworks */,
+				4DB25F2E1A6AF55F00263C53 /* CoreGraphics.framework in Frameworks */,
+				4DB25F2F1A6AF55F00263C53 /* CoreImage.framework in Frameworks */,
+				4DB25F301A6AF55F00263C53 /* CoreMedia.framework in Frameworks */,
+				4DB25F311A6AF55F00263C53 /* GLKit.framework in Frameworks */,
+				4DB25F321A6AF55F00263C53 /* ImageIO.framework in Frameworks */,
+				4DB25F331A6AF55F00263C53 /* MediaPlayer.framework in Frameworks */,
+				4DB25F341A6AF55F00263C53 /* QuartzCore.framework in Frameworks */,
+				4DB25F351A6AF55F00263C53 /* SpriteKit.framework in Frameworks */,
+				4DB25F361A6AF55F00263C53 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +181,85 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D9E37A61A70598E000DEE0E /* GN Particle System */ = {
+			isa = PBXGroup;
+			children = (
+				4D9E37A71A705DE8000DEE0E /* GNParticleView.h */,
+				4D9E37A81A705DE8000DEE0E /* GNParticleView.m */,
+			);
+			name = "GN Particle System";
+			sourceTree = "<group>";
+		};
+		4DB25F0C1A6AF2BC00263C53 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				4DED24681A684C96004C3845 /* FlickrDataDownloader.h */,
+				4DED24691A684C96004C3845 /* FlickrDataDownloader.m */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		4DB25F0D1A6AF2C900263C53 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				4DED246B1A684CBC004C3845 /* FlickrPhoto.h */,
+				4DED246C1A684CBC004C3845 /* FlickrPhoto.m */,
+			);
+			name = "Data Models";
+			sourceTree = "<group>";
+		};
+		4DB25F701A6B2C2400263C53 /* GundamImages */ = {
+			isa = PBXGroup;
+			children = (
+				4D9E37991A6F0519000DEE0E /* kamilie.jpg */,
+				4DB25F711A6B2C2400263C53 /* 01 - RGiZCHB.jpg */,
+				4DB25F721A6B2C2400263C53 /* 02 - DlpsRAk.jpg */,
+				4DB25F731A6B2C2400263C53 /* 03 - ZHfe0EA.jpg */,
+				4DB25F741A6B2C2400263C53 /* 04 - 15Ygni9.jpg */,
+				4DB25F751A6B2C2400263C53 /* 05 - X84VOu0.jpg */,
+				4DB25F761A6B2C2400263C53 /* 06 - HHI1oPc.jpg */,
+				4DB25F771A6B2C2400263C53 /* 07 - yrpdwiJ.jpg */,
+				4DB25F781A6B2C2400263C53 /* 08 - 40lUYZw.jpg */,
+				4DB25F791A6B2C2400263C53 /* 09 - tBjOOO9.jpg */,
+				4DB25F7B1A6B2C2400263C53 /* 11 - fp0YhmP.jpg */,
+				4DB25F7E1A6B2C2400263C53 /* 14 - DfVL6Ky.jpg */,
+				4DB25F7F1A6B2C2400263C53 /* 15 - ofDo6TT.jpg */,
+				4DB25F801A6B2C2400263C53 /* 16 - eY4qHii.jpg */,
+				4DB25F811A6B2C2400263C53 /* 17 - vo3uG5o.jpg */,
+				4DB25F821A6B2C2400263C53 /* 18 - TuuMyEp.jpg */,
+				4DB25F831A6B2C2400263C53 /* 19 - Rkoh2mU.jpg */,
+				4DB25F841A6B2C2400263C53 /* 20 - Ktrr2Ze.jpg */,
+				4DB25F851A6B2C2400263C53 /* 21 - BImGb28.jpg */,
+				4DB25F861A6B2C2400263C53 /* 22 - 6i3xJUb.jpg */,
+				4DB25F871A6B2C2400263C53 /* 23 - UKegpFO.jpg */,
+				4DB25F881A6B2C2400263C53 /* 24 - mx50jSs.jpg */,
+				4DB25F891A6B2C2400263C53 /* 25 - Edi3hMw.jpg */,
+				4DB25F8A1A6B2C2400263C53 /* 26 - I6E8AxD.jpg */,
+				4DB25F8B1A6B2C2400263C53 /* 27 - wJAhNnZ.jpg */,
+			);
+			path = GundamImages;
+			sourceTree = "<group>";
+		};
 		4DED24331A6847A3004C3845 = {
 			isa = PBXGroup;
 			children = (
+				4DB25F231A6AF55F00263C53 /* CoreFoundation.framework */,
+				4DB25F241A6AF55F00263C53 /* CoreGraphics.framework */,
+				4DB25F251A6AF55F00263C53 /* CoreImage.framework */,
+				4DB25F261A6AF55F00263C53 /* CoreMedia.framework */,
+				4D9E37A11A6F1465000DEE0E /* Foundation.framework */,
+				4DB25F271A6AF55F00263C53 /* GLKit.framework */,
+				4DB25F281A6AF55F00263C53 /* ImageIO.framework */,
+				4DB25F291A6AF55F00263C53 /* MediaPlayer.framework */,
+				4DB25F371A6AF58200263C53 /* OpenGLES.framework */,
+				4DB25F2A1A6AF55F00263C53 /* QuartzCore.framework */,
+				4DB25FA71A6DAEAE00263C53 /* SceneKit.framework */,
+				4DB25F2B1A6AF55F00263C53 /* SpriteKit.framework */,
+				4DB25F2C1A6AF55F00263C53 /* UIKit.framework */,
+				4D9E379B1A6F0AC2000DEE0E /* circle-mask.png */,
+				4D4921C61A72E69E009CD131 /* gnGundam2.png */,
+				4DB25F031A68657100263C53 /* star.png */,
+				4DB25F021A68657100263C53 /* GNParticleSystem.scnp */,
 				4DED243E1A6847A3004C3845 /* FlickrDemoKai */,
 				4DED24581A6847A3004C3845 /* FlickrDemoKaiTests */,
 				4DED243D1A6847A3004C3845 /* Products */,
@@ -81,14 +278,19 @@
 		4DED243E1A6847A3004C3845 /* FlickrDemoKai */ = {
 			isa = PBXGroup;
 			children = (
+				4D9E37A61A70598E000DEE0E /* GN Particle System */,
+				4DB25F701A6B2C2400263C53 /* GundamImages */,
+				4DB25F0C1A6AF2BC00263C53 /* Managers */,
+				4DED246F1A684D55004C3845 /* Core Data? */,
+				4DED246E1A684D29004C3845 /* Collection View Classes */,
 				4DED24431A6847A3004C3845 /* AppDelegate.h */,
 				4DED24441A6847A3004C3845 /* AppDelegate.m */,
-				4DED24461A6847A3004C3845 /* ViewController.h */,
-				4DED24471A6847A3004C3845 /* ViewController.m */,
 				4DED24491A6847A3004C3845 /* Main.storyboard */,
 				4DED244C1A6847A3004C3845 /* Images.xcassets */,
 				4DED244E1A6847A3004C3845 /* LaunchScreen.xib */,
 				4DED243F1A6847A3004C3845 /* Supporting Files */,
+				4DED24701A6857DA004C3845 /* FlickrCollectionViewController.h */,
+				4DED24711A6857DA004C3845 /* FlickrCollectionViewController.m */,
 			);
 			path = FlickrDemoKai;
 			sourceTree = "<group>";
@@ -96,8 +298,13 @@
 		4DED243F1A6847A3004C3845 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4D4921C41A72E04F009CD131 /* GundamEarth.caf */,
+				4D4921C01A71C58D009CD131 /* GundamEmotion.caf */,
+				4D4921C11A71C58D009CD131 /* FlyGundam.caf */,
 				4DED24401A6847A3004C3845 /* Info.plist */,
 				4DED24411A6847A3004C3845 /* main.m */,
+				4D4921BB1A71B946009CD131 /* BGManager.h */,
+				4D4921BC1A71B946009CD131 /* BGManager.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,6 +324,25 @@
 				4DED245A1A6847A3004C3845 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DED246E1A684D29004C3845 /* Collection View Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4DED24651A684B64004C3845 /* CollectionViewCell.h */,
+				4DED24661A684B64004C3845 /* CollectionViewCell.m */,
+				4DB25F091A6AF28F00263C53 /* CustomFlowLayout.h */,
+				4DB25F0A1A6AF28F00263C53 /* CustomFlowLayout.m */,
+			);
+			name = "Collection View Classes";
+			sourceTree = "<group>";
+		};
+		4DED246F1A684D55004C3845 /* Core Data? */ = {
+			isa = PBXGroup;
+			children = (
+				4DB25F0D1A6AF2C900263C53 /* Data Models */,
+			);
+			name = "Core Data?";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +425,41 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DB25F9A1A6B2C2400263C53 /* 15 - ofDo6TT.jpg in Resources */,
+				4DB25FA11A6B2C2400263C53 /* 22 - 6i3xJUb.jpg in Resources */,
+				4DB25F911A6B2C2400263C53 /* 06 - HHI1oPc.jpg in Resources */,
+				4DB25F8C1A6B2C2400263C53 /* 01 - RGiZCHB.jpg in Resources */,
+				4D4921C31A71C58D009CD131 /* FlyGundam.caf in Resources */,
+				4DB25F9F1A6B2C2400263C53 /* 20 - Ktrr2Ze.jpg in Resources */,
+				4DB25F961A6B2C2400263C53 /* 11 - fp0YhmP.jpg in Resources */,
+				4DB25FA21A6B2C2400263C53 /* 23 - UKegpFO.jpg in Resources */,
+				4DB25F8D1A6B2C2400263C53 /* 02 - DlpsRAk.jpg in Resources */,
+				4DB25FA41A6B2C2400263C53 /* 25 - Edi3hMw.jpg in Resources */,
+				4D4921C51A72E04F009CD131 /* GundamEarth.caf in Resources */,
+				4DB25F8E1A6B2C2400263C53 /* 03 - ZHfe0EA.jpg in Resources */,
+				4DB25F901A6B2C2400263C53 /* 05 - X84VOu0.jpg in Resources */,
 				4DED244B1A6847A3004C3845 /* Main.storyboard in Resources */,
+				4DB25F051A68657100263C53 /* star.png in Resources */,
+				4DB25F9D1A6B2C2400263C53 /* 18 - TuuMyEp.jpg in Resources */,
+				4D9E379A1A6F0519000DEE0E /* kamilie.jpg in Resources */,
+				4DB25FA31A6B2C2400263C53 /* 24 - mx50jSs.jpg in Resources */,
+				4DB25F941A6B2C2400263C53 /* 09 - tBjOOO9.jpg in Resources */,
+				4D4921C71A72E69E009CD131 /* gnGundam2.png in Resources */,
+				4DB25F931A6B2C2400263C53 /* 08 - 40lUYZw.jpg in Resources */,
+				4DB25F041A68657100263C53 /* GNParticleSystem.scnp in Resources */,
+				4D9E379C1A6F0AC2000DEE0E /* circle-mask.png in Resources */,
+				4DB25F9C1A6B2C2400263C53 /* 17 - vo3uG5o.jpg in Resources */,
+				4DB25FA61A6B2C2400263C53 /* 27 - wJAhNnZ.jpg in Resources */,
+				4DB25FA51A6B2C2400263C53 /* 26 - I6E8AxD.jpg in Resources */,
+				4DB25F9B1A6B2C2400263C53 /* 16 - eY4qHii.jpg in Resources */,
+				4DB25F991A6B2C2400263C53 /* 14 - DfVL6Ky.jpg in Resources */,
+				4D4921C21A71C58D009CD131 /* GundamEmotion.caf in Resources */,
+				4DB25F921A6B2C2400263C53 /* 07 - yrpdwiJ.jpg in Resources */,
 				4DED24501A6847A3004C3845 /* LaunchScreen.xib in Resources */,
+				4DB25FA01A6B2C2400263C53 /* 21 - BImGb28.jpg in Resources */,
 				4DED244D1A6847A3004C3845 /* Images.xcassets in Resources */,
+				4DB25F9E1A6B2C2400263C53 /* 19 - Rkoh2mU.jpg in Resources */,
+				4DB25F8F1A6B2C2400263C53 /* 04 - 15Ygni9.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +477,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DED24481A6847A3004C3845 /* ViewController.m in Sources */,
+				4DED24721A6857DA004C3845 /* FlickrCollectionViewController.m in Sources */,
+				4D9E37A91A705DE8000DEE0E /* GNParticleView.m in Sources */,
+				4D4921BD1A71B946009CD131 /* BGManager.m in Sources */,
+				4DED246A1A684C96004C3845 /* FlickrDataDownloader.m in Sources */,
+				4DB25F0B1A6AF28F00263C53 /* CustomFlowLayout.m in Sources */,
 				4DED24451A6847A3004C3845 /* AppDelegate.m in Sources */,
+				4DED246D1A684CBC004C3845 /* FlickrPhoto.m in Sources */,
+				4DED24671A684B64004C3845 /* CollectionViewCell.m in Sources */,
 				4DED24421A6847A3004C3845 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,9 +607,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FlickrDemoKai/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "-Wno-objc-designated-initializers";
 			};
 			name = Debug;
 		};
@@ -353,9 +620,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FlickrDemoKai/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "-Wno-objc-designated-initializers";
 			};
 			name = Release;
 		};
@@ -412,6 +682,7 @@
 				4DED24611A6847A3004C3845 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DED24621A6847A3004C3845 /* Build configuration list for PBXNativeTarget "FlickrDemoKaiTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +691,7 @@
 				4DED24641A6847A3004C3845 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
