@@ -45,7 +45,6 @@ BOOL APIActivate = NO;
 #define searchQuery @"Gundam"
 #define GalleryFrame CGRectMake(self.collectionView.frame.origin.x, self.collectionView.frame.origin.y + 20, self.collectionView.frame.size.width, self.collectionView.frame.size.height)
 
-
 #define animationDuration 0.5
 
 - (void)viewDidLoad {
@@ -182,7 +181,6 @@ BOOL APIActivate = NO;
         //Set up images
         // Asynchronously load image. Personally, I like to use the third-party library called SDWebImage. But
         // I wanted to showcase this approach. Also, this has beeen modified for the Collection View.
-        gundamcell.imageView.image = [[UIImage alloc]initWithCIImage:nil];
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^{
             NSData *imgData = [NSData dataWithContentsOfURL:currentPhoto.filckrphotoThumbnailImageURL];
             if (imgData) {
@@ -293,12 +291,13 @@ BOOL APIActivate = NO;
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView{
     if (scrollView.contentOffset.y == roundf(scrollView.contentSize.height-scrollView.frame.size.height)) {
         //Execute the next set of operation here...
-        if (!isOperating) {
-            NSLog(@"Executing new operation...");
-            isOperating = YES;
-            [self getMorePhotos];
+        if (APIActivate) { // Check if it's in real-time mode
+            if (!isOperating) {
+                NSLog(@"Executing new operation...");
+                isOperating = YES;
+                [self getMorePhotos];
+            }
         }
-      
     }
 }
 

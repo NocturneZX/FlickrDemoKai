@@ -83,8 +83,8 @@
             // Setup the FlickrPhoto class
             PhotoObject.filckrphotoID = photoID;
             PhotoObject.filckrphotoTitle = title;
-            PhotoObject.filckrphotoImageURL  = photoThumbnailURL;
-            PhotoObject.filckrphotoThumbnailImageURL = photoURL;
+            PhotoObject.filckrphotoImageURL  = photoURL;
+            PhotoObject.filckrphotoThumbnailImageURL = photoThumbnailURL;
             PhotoObject.filckrphotoAuthor = owner;
             
             //Add PhotoObject into the array
@@ -92,18 +92,16 @@
             
         }
         
-        //NSLog(@"%@", arrayOfFlickrPhotoObjects);
         // Send data to the main thread
         dispatch_async(dispatch_get_main_queue(), ^{
             // do work here
             [self.delegate FlickrDataDownloaderDidComplete:arrayOfFlickrPhotoObjects];
         });
-        
-        
     }];
     
     // Execute the task
     [flickrtask resume];
+    
 }
 
 @end
