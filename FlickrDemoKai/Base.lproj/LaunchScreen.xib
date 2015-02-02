@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6724" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
@@ -36,6 +36,10 @@
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Iar-9J-dqe">
+                    <rect key="frame" x="230" y="337" width="20" height="20"/>
+                    <color key="color" red="0.42088501519999999" green="0.87845179669999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </activityIndicatorView>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="GN PARTICLE SYSTEM LOADING..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="xko-HY-g7u">
                     <rect key="frame" x="20" y="308" width="441" height="21"/>
                     <constraints>
@@ -55,30 +59,32 @@
                         </mask>
                     </variation>
                 </label>
-                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Iar-9J-dqe">
-                    <rect key="frame" x="230" y="337" width="20" height="20"/>
-                    <color key="color" red="0.42088501519999999" green="0.87845179669999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                </activityIndicatorView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="kId-c2-rCX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="333-UQ-Ita"/>
                 <constraint firstItem="kId-c2-rCX" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="bottom" multiplier="1/3" constant="1" id="5cJ-9S-tgC"/>
                 <constraint firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="20" id="Ann-Dv-2pB"/>
-                <constraint firstItem="xko-HY-g7u" firstAttribute="centerX" secondItem="Iar-9J-dqe" secondAttribute="centerX" id="CGE-VL-rbK"/>
+                <constraint firstItem="xko-HY-g7u" firstAttribute="centerX" secondItem="Iar-9J-dqe" secondAttribute="centerX" id="CGE-VL-rbK">
+                    <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
+                </constraint>
                 <constraint firstItem="8ie-xW-0ye" firstAttribute="leading" secondItem="kId-c2-rCX" secondAttribute="leading" id="D4c-O8-TT0"/>
                 <constraint firstAttribute="centerX" secondItem="kId-c2-rCX" secondAttribute="centerX" id="Koa-jz-hwk"/>
                 <constraint firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="20" id="Kzo-t9-V3l"/>
                 <constraint firstItem="kId-c2-rCX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="225" id="Ldn-yp-udZ"/>
                 <constraint firstItem="8ie-xW-0ye" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="MfP-vx-nX0"/>
                 <constraint firstItem="kId-c2-rCX" firstAttribute="trailing" secondItem="8ie-xW-0ye" secondAttribute="trailing" id="NMD-ol-Vjj"/>
-                <constraint firstItem="xko-HY-g7u" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="-13" id="XIr-nP-Zgo"/>
+                <constraint firstItem="xko-HY-g7u" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="-13" id="XIr-nP-Zgo">
+                    <variation key="heightClass=regular-widthClass=compact" constant="7"/>
+                </constraint>
                 <constraint firstAttribute="centerX" secondItem="8ie-xW-0ye" secondAttribute="centerX" id="ZEH-qu-HZ9"/>
                 <constraint firstItem="kId-c2-rCX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="fvb-Df-36g"/>
                 <constraint firstItem="Iar-9J-dqe" firstAttribute="top" secondItem="xko-HY-g7u" secondAttribute="bottom" constant="8" symbolic="YES" id="ipN-Y8-kSD"/>
                 <constraint firstItem="xko-HY-g7u" firstAttribute="top" secondItem="kId-c2-rCX" secondAttribute="bottom" constant="40" id="k2X-k0-YfP"/>
                 <constraint firstItem="Iar-9J-dqe" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="qtD-MQ-JuM"/>
-                <constraint firstItem="kId-c2-rCX" firstAttribute="centerX" secondItem="xko-HY-g7u" secondAttribute="centerX" id="shv-Bv-Bga"/>
+                <constraint firstItem="kId-c2-rCX" firstAttribute="centerX" secondItem="xko-HY-g7u" secondAttribute="centerX" id="shv-Bv-Bga">
+                    <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
+                </constraint>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>

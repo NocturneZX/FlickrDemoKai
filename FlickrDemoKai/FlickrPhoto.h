@@ -8,13 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-@interface FlickrPhoto : NSObject
+@interface FlickrPhoto : NSObject <NSCoding>
 
-@property NSString *filckrphotoID;
-@property NSString *filckrphotoTitle;
-@property NSURL  *filckrphotoImageURL;
-@property NSURL  *filckrphotoThumbnailImageURL;
-@property NSString *filckrphotoAuthor;
+@property (nonatomic, copy) NSString *filckrphotoID;
+@property (nonatomic, copy) NSString *filckrphotoTitle;
+@property (nonatomic, copy) NSURL  *filckrphotoImageURL;
+@property (nonatomic, copy) NSURL  *filckrphotoThumbnailImageURL;
+@property (nonatomic, copy) NSString *filckrphotoAuthor;
+
 
 - (instancetype)initWithFlickrPhoto:(NSString *)aFlickrPhotoID
                phototitle:(NSString *)aFlickrPhotoTitle
@@ -22,6 +23,6 @@
                photothumb:(NSURL *)aFlickrPhotoThumb
               photoauthor:(NSString *)theFlickrPhotoAuthor;
 
-//- (id)initWithDictionary:(NSDictionary *)dict;
+
 
 @end

@@ -27,11 +27,12 @@
 @property (nonatomic) UIImageView *backgroundView;
 
 @property (nonatomic, weak) IBOutlet UISegmentedControl *gundamSegControl;
+@property (nonatomic, weak) IBOutlet UIBarButtonItem *musicButton;
+
 @end
 
-
-
 @implementation FlickrCollectionViewController
+@synthesize musicButton = _musicButton;
 @synthesize gundamSegControl = _gundamSegControl;
 @synthesize backgroundView = _backgroundView;
 @synthesize photosets = _photosets;
@@ -69,10 +70,6 @@ BOOL APIActivate = NO;
     
     [self.collectionView setBackgroundView:gnView];
     
-    // Set short background music
-    self.gundamPlayer = [[BGManager alloc]init];
-    
-    //[gnView bringSubviewToFront:self.collectionView];
     [gnView beginGNParticleDispersal];
     
     
@@ -100,14 +97,19 @@ BOOL APIActivate = NO;
         // Execute image load.
         [self.downloader getArrayOfPhotoObjectsforTheSearchTerm:searchQuery];
     }
-    
-    // Background music will start
-    [self.gundamPlayer playGundamMusic];
 }
 
 - (void)didReceiveMemoryWarning {
+    
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    for(FlickrPhoto *photo in _photosets) {
+        photo.filckrphotoImageURL = nil;
+        photo.filckrphotoThumbnailImageURL = nil;
+        photo.filckrphotoAuthor = nil;
+        photo.filckrphotoID = nil;
+        photo.filckrphotoTitle = nil;
+    }
 }
 
 -(void)viewDidAppear:(BOOL)animated
@@ -176,8 +178,9 @@ BOOL APIActivate = NO;
         // REAL-TIME MODE
         __weak FlickrCollectionViewController *weakSelf = self;
 
-        FlickrPhoto *currentPhoto = weakSelf.photosets[indexPath.row];
+        __block FlickrPhoto *currentPhoto = weakSelf.photosets[indexPath.row];
         
+
         //Set up images
         // Asynchronously load image. Personally, I like to use the third-party library called SDWebImage. But
         // I wanted to showcase this approach. Also, this has beeen modified for the Collection View.
@@ -186,6 +189,8 @@ BOOL APIActivate = NO;
             if (imgData) {
                 UIImage *image = [UIImage imageWithData:imgData];
                 if (image) {
+                    gundamcell.imageView.image = image;
+                    
                     dispatch_async(dispatch_get_main_queue(), ^{
                         if ([weakSelf.collectionView.indexPathsForVisibleItems containsObject:indexPath]) {
                             CollectionViewCell *updateCell = (CollectionViewCell *)[weakSelf.collectionView cellForItemAtIndexPath:indexPath];
@@ -367,4 +372,22 @@ BOOL APIActivate = NO;
         }
     }
 }
+
+#pragma mark - Music Settings
+-(IBAction)musicbtnClicked:(id)sender{
+    if ([sender isKindOfClass:[UIBarButtonItem class]]) {
+        if ([self.gundamPlayer isMusicPlaying]) {
+            self.gundamPlayer = nil;
+            [self.gundamPlayer stopGundamMusic];
+            self.musicButton.title = @"Play";
+        }else{
+            // Set short background music
+            self.gundamPlayer = [[BGManager alloc]init];
+            [self.gundamPlayer configureAudioPlayer];
+            [self.gundamPlayer playGundamMusic];
+            self.musicButton.title = @"Stop";
+        }
+    }
+}
+
 @end

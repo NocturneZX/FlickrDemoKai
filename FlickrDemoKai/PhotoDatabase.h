@@ -10,4 +10,7 @@
 
 @interface PhotoDatabase : NSObject
 
++ (NSMutableArray *)loadPhotoData;
++ (NSString *)nextPhotoPath;
+
 @end

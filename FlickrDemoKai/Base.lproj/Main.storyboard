@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6724" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="8uF-jM-GfD">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="8uF-jM-GfD">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -92,12 +92,19 @@
                                 <action selector="SwitchMode:" destination="hQn-0j-wYF" eventType="valueChanged" id="8Lp-pZ-6I5"/>
                             </connections>
                         </segmentedControl>
+                        <barButtonItem key="rightBarButtonItem" title="Play" id="8Mr-ls-Gq4">
+                            <color key="tintColor" red="0.072174570059999998" green="1" blue="0.64322677260000005" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="musicbtnClicked:" destination="hQn-0j-wYF" id="I8K-iz-3gN"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <connections>
                         <outlet property="collectionView" destination="lFO-cz-FYk" id="BGF-Vf-gvM"/>
                         <outlet property="gnView" destination="Eve-L2-fc2" id="mko-LM-T3a"/>
                         <outlet property="gundamSegControl" destination="yRu-Iz-vMb" id="6Ew-iQ-d9t"/>
+                        <outlet property="musicButton" destination="8Mr-ls-Gq4" id="g2m-9X-nGL"/>
                     </connections>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jB2-cb-zSi" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -106,7 +113,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </view>
             </objects>
-            <point key="canvasLocation" x="802.5" y="515.25"/>
+            <point key="canvasLocation" x="886.5" y="515.25"/>
         </scene>
     </scenes>
 </document>

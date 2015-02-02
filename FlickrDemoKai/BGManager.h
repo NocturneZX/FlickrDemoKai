@@ -13,6 +13,8 @@
 - (instancetype)init;
 - (void) configureAudioSession;
 - (void)configureAudioPlayer;
+
+-(BOOL)isMusicPlaying;
 - (void)playGundamMusic;
 - (void)stopGundamMusic;
 

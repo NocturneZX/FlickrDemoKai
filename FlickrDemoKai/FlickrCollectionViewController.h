@@ -21,5 +21,6 @@
 
 // Mode Switch
 -(IBAction)SwitchMode:(id)sender;
+-(IBAction)musicbtnClicked:(id)sender;
 
 @end

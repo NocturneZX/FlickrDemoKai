@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D207E261A7F691200BF76D3 /* GundamEarth.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4D207E251A7F691200BF76D3 /* GundamEarth.caf */; };
+		4D207E2E1A7F6A4900BF76D3 /* GundamDiskStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D207E2D1A7F6A4900BF76D3 /* GundamDiskStore.m */; };
+		4D207E2F1A7F6A4900BF76D3 /* GundamDiskStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D207E2D1A7F6A4900BF76D3 /* GundamDiskStore.m */; };
+		4D207E321A7F6C0E00BF76D3 /* PhotoDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D207E311A7F6C0E00BF76D3 /* PhotoDatabase.m */; };
+		4D207E331A7F6C0E00BF76D3 /* PhotoDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D207E311A7F6C0E00BF76D3 /* PhotoDatabase.m */; };
 		4D4921BD1A71B946009CD131 /* BGManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4921BC1A71B946009CD131 /* BGManager.m */; };
 		4D4921C21A71C58D009CD131 /* GundamEmotion.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4D4921C01A71C58D009CD131 /* GundamEmotion.caf */; };
 		4D4921C31A71C58D009CD131 /* FlyGundam.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4D4921C11A71C58D009CD131 /* FlyGundam.caf */; };
-		4D4921C51A72E04F009CD131 /* GundamEarth.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4D4921C41A72E04F009CD131 /* GundamEarth.caf */; };
 		4D4921C71A72E69E009CD131 /* gnGundam2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4921C61A72E69E009CD131 /* gnGundam2.png */; };
 		4D9E379A1A6F0519000DEE0E /* kamilie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E37991A6F0519000DEE0E /* kamilie.jpg */; };
 		4D9E379C1A6F0AC2000DEE0E /* circle-mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E379B1A6F0AC2000DEE0E /* circle-mask.png */; };
@@ -19,7 +23,6 @@
 		4DB25F041A68657100263C53 /* GNParticleSystem.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25F021A68657100263C53 /* GNParticleSystem.scnp */; };
 		4DB25F051A68657100263C53 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25F031A68657100263C53 /* star.png */; };
 		4DB25F0B1A6AF28F00263C53 /* CustomFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB25F0A1A6AF28F00263C53 /* CustomFlowLayout.m */; };
-		4DB25F2D1A6AF55F00263C53 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB25F231A6AF55F00263C53 /* CoreFoundation.framework */; };
 		4DB25F2E1A6AF55F00263C53 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB25F241A6AF55F00263C53 /* CoreGraphics.framework */; };
 		4DB25F2F1A6AF55F00263C53 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB25F251A6AF55F00263C53 /* CoreImage.framework */; };
 		4DB25F301A6AF55F00263C53 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB25F261A6AF55F00263C53 /* CoreMedia.framework */; };
@@ -54,7 +57,6 @@
 		4DB25FA41A6B2C2400263C53 /* 25 - Edi3hMw.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25F891A6B2C2400263C53 /* 25 - Edi3hMw.jpg */; };
 		4DB25FA51A6B2C2400263C53 /* 26 - I6E8AxD.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25F8A1A6B2C2400263C53 /* 26 - I6E8AxD.jpg */; };
 		4DB25FA61A6B2C2400263C53 /* 27 - wJAhNnZ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25F8B1A6B2C2400263C53 /* 27 - wJAhNnZ.jpg */; };
-		4DB25FA81A6DAEAE00263C53 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB25FA71A6DAEAE00263C53 /* SceneKit.framework */; };
 		4DED24421A6847A3004C3845 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DED24411A6847A3004C3845 /* main.m */; };
 		4DED24451A6847A3004C3845 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DED24441A6847A3004C3845 /* AppDelegate.m */; };
 		4DED244B1A6847A3004C3845 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DED24491A6847A3004C3845 /* Main.storyboard */; };
@@ -78,11 +80,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D207E251A7F691200BF76D3 /* GundamEarth.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GundamEarth.caf; sourceTree = "<group>"; };
+		4D207E2C1A7F6A4900BF76D3 /* GundamDiskStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GundamDiskStore.h; sourceTree = "<group>"; };
+		4D207E2D1A7F6A4900BF76D3 /* GundamDiskStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GundamDiskStore.m; sourceTree = "<group>"; };
+		4D207E301A7F6C0E00BF76D3 /* PhotoDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoDatabase.h; sourceTree = "<group>"; };
+		4D207E311A7F6C0E00BF76D3 /* PhotoDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoDatabase.m; sourceTree = "<group>"; };
 		4D4921BB1A71B946009CD131 /* BGManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGManager.h; sourceTree = "<group>"; };
 		4D4921BC1A71B946009CD131 /* BGManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGManager.m; sourceTree = "<group>"; };
 		4D4921C01A71C58D009CD131 /* GundamEmotion.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GundamEmotion.caf; sourceTree = "<group>"; };
 		4D4921C11A71C58D009CD131 /* FlyGundam.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FlyGundam.caf; sourceTree = "<group>"; };
-		4D4921C41A72E04F009CD131 /* GundamEarth.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GundamEarth.caf; sourceTree = "<group>"; };
 		4D4921C61A72E69E009CD131 /* gnGundam2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gnGundam2.png; sourceTree = "<group>"; };
 		4D9E37991A6F0519000DEE0E /* kamilie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kamilie.jpg; sourceTree = "<group>"; };
 		4D9E379B1A6F0AC2000DEE0E /* circle-mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle-mask.png"; sourceTree = "<group>"; };
@@ -156,9 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D9E37A21A6F1465000DEE0E /* Foundation.framework in Frameworks */,
-				4DB25FA81A6DAEAE00263C53 /* SceneKit.framework in Frameworks */,
 				4DB25F381A6AF58200263C53 /* OpenGLES.framework in Frameworks */,
-				4DB25F2D1A6AF55F00263C53 /* CoreFoundation.framework in Frameworks */,
 				4DB25F2E1A6AF55F00263C53 /* CoreGraphics.framework in Frameworks */,
 				4DB25F2F1A6AF55F00263C53 /* CoreImage.framework in Frameworks */,
 				4DB25F301A6AF55F00263C53 /* CoreMedia.framework in Frameworks */,
@@ -204,6 +208,10 @@
 			children = (
 				4DED246B1A684CBC004C3845 /* FlickrPhoto.h */,
 				4DED246C1A684CBC004C3845 /* FlickrPhoto.m */,
+				4D207E2C1A7F6A4900BF76D3 /* GundamDiskStore.h */,
+				4D207E2D1A7F6A4900BF76D3 /* GundamDiskStore.m */,
+				4D207E301A7F6C0E00BF76D3 /* PhotoDatabase.h */,
+				4D207E311A7F6C0E00BF76D3 /* PhotoDatabase.m */,
 			);
 			name = "Data Models";
 			sourceTree = "<group>";
@@ -298,7 +306,7 @@
 		4DED243F1A6847A3004C3845 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4D4921C41A72E04F009CD131 /* GundamEarth.caf */,
+				4D207E251A7F691200BF76D3 /* GundamEarth.caf */,
 				4D4921C01A71C58D009CD131 /* GundamEmotion.caf */,
 				4D4921C11A71C58D009CD131 /* FlyGundam.caf */,
 				4DED24401A6847A3004C3845 /* Info.plist */,
@@ -435,7 +443,7 @@
 				4DB25FA21A6B2C2400263C53 /* 23 - UKegpFO.jpg in Resources */,
 				4DB25F8D1A6B2C2400263C53 /* 02 - DlpsRAk.jpg in Resources */,
 				4DB25FA41A6B2C2400263C53 /* 25 - Edi3hMw.jpg in Resources */,
-				4D4921C51A72E04F009CD131 /* GundamEarth.caf in Resources */,
+				4D207E261A7F691200BF76D3 /* GundamEarth.caf in Resources */,
 				4DB25F8E1A6B2C2400263C53 /* 03 - ZHfe0EA.jpg in Resources */,
 				4DB25F901A6B2C2400263C53 /* 05 - X84VOu0.jpg in Resources */,
 				4DED244B1A6847A3004C3845 /* Main.storyboard in Resources */,
@@ -477,7 +485,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D207E2E1A7F6A4900BF76D3 /* GundamDiskStore.m in Sources */,
 				4DED24721A6857DA004C3845 /* FlickrCollectionViewController.m in Sources */,
+				4D207E321A7F6C0E00BF76D3 /* PhotoDatabase.m in Sources */,
 				4D9E37A91A705DE8000DEE0E /* GNParticleView.m in Sources */,
 				4D4921BD1A71B946009CD131 /* BGManager.m in Sources */,
 				4DED246A1A684C96004C3845 /* FlickrDataDownloader.m in Sources */,
@@ -493,6 +503,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D207E2F1A7F6A4900BF76D3 /* GundamDiskStore.m in Sources */,
+				4D207E331A7F6C0E00BF76D3 /* PhotoDatabase.m in Sources */,
 				4DED245C1A6847A3004C3845 /* FlickrDemoKaiTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
