@@ -50,13 +50,12 @@
     
     // Remove any behaviours that are no longer visible.
     NSArray *noLongerVisibleBehaviors = [self.dynamicAnimator.behaviors filteredArrayUsingPredicate:[NSPredicate predicateWithBlock:^BOOL(UIAttachmentBehavior *behaviour, NSDictionary *bindings) {
-        BOOL currentlyVisible = [indexPathsInVisibleRectSet member:[[[behaviour items] firstObject] indexPath]] != nil;
-        return !currentlyVisible;
+        return [indexPathsInVisibleRectSet containsObject:[(UICollectionViewLayoutAttributes *)[[behaviour items] firstObject] indexPath]] == NO;
     }]];
     
     [noLongerVisibleBehaviors enumerateObjectsUsingBlock:^(id obj, NSUInteger index, BOOL *stop) {
         [self.dynamicAnimator removeBehavior:obj];
-        [self.visibleIndexPaths removeObject:[[[obj items] firstObject] indexPath]];
+        [self.visibleIndexPaths removeObject:[(UICollectionViewLayoutAttributes *)[[obj items] firstObject] indexPath]];
     }];
     
     // Add any new visible behaviours.
@@ -77,8 +76,8 @@
         
         // If our touchLocation is not (0,0), we'll need to adjust our item's center "in flight"
         if (!CGPointEqualToPoint(CGPointZero, touchLocation)) {
-            CGFloat yDistanceFromTouch = fabsf(touchLocation.y - springBehavior.anchorPoint.y);
-            CGFloat xDistanceFromTouch = fabsf(touchLocation.x - springBehavior.anchorPoint.x);
+            CGFloat yDistanceFromTouch = fabs(touchLocation.y - springBehavior.anchorPoint.y);
+            CGFloat xDistanceFromTouch = fabs(touchLocation.x - springBehavior.anchorPoint.x);
             CGFloat scrollResistance = (yDistanceFromTouch + xDistanceFromTouch) / 1800.0f;
             
             if (_latestDelta < 0) {
@@ -121,11 +120,11 @@
     
     [self.dynamicAnimator.behaviors enumerateObjectsUsingBlock:^(UIAttachmentBehavior *springBehavior, NSUInteger idx, BOOL *stop) {
         
-        CGFloat yDistanceFromTouch = fabsf(touchLocation.y - springBehavior.anchorPoint.y);
-        CGFloat xDistanceFromTouch = fabsf(touchLocation.x - springBehavior.anchorPoint.x);
+        CGFloat yDistanceFromTouch = fabs(touchLocation.y - springBehavior.anchorPoint.y);
+        CGFloat xDistanceFromTouch = fabs(touchLocation.x - springBehavior.anchorPoint.x);
         CGFloat scrollResistance = (yDistanceFromTouch + xDistanceFromTouch) / 1800.0f;
         
-        UICollectionViewLayoutAttributes *item = [springBehavior.items firstObject];
+        UICollectionViewLayoutAttributes *item = (UICollectionViewLayoutAttributes *) [springBehavior.items firstObject];
         CGPoint center = item.center;
         if (nuDelta < 0) {
             center.y += MAX(nuDelta, nuDelta * scrollResistance);

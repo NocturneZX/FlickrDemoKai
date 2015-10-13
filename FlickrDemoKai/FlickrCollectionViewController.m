@@ -215,7 +215,7 @@ BOOL APIActivate = NO;
 
 -(NSUInteger)supportedInterfaceOrientations
 {
-    return UIInterfaceOrientationMaskPortrait;;
+    return UIInterfaceOrientationMaskPortrait;
 }
 
 #pragma mark <UICollectionViewDelegate>
